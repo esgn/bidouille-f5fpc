@@ -1,4 +1,4 @@
-Mettre le script vpn_connect.sh dans l'emmplacement de son choix (`/home/username` typiquement) et rajouter les lignes suivantes dans le crontab 
+Mettre le script `vpn_connect.sh` dans l'emmplacement de son choix (`/home/username` typiquement) et rajouter les lignes suivantes dans le crontab 
 
 ```
 # m h  dom mon dow   command
