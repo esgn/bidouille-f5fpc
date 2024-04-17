@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CONTENT=$(wget --timeout=5 neverssl.com -q -O -)
+CONTENT=$(wget --timeout=5 --tries=1 neverssl.com -q -O -)
 if [ -z "$CONTENT" ]
 then
   echo "reconnecting the hard way"
